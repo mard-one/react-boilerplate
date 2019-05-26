@@ -1,0 +1,10 @@
+{
+	"extends": [ "tslint:latest", "tslint-react", "tslint-plugin-prettier", "tslint-config-prettier" ],
+	"rules": {
+		"no-implicit-dependencies": false,
+		"interface-over-type-literal": false,
+		"no-console": false,
+		"ordered-imports": false
+	},
+	"linterOptions": { "exclude": [ "config/**/*.js", "node_modules/**/*.ts", "coverage/lcov-report/*.js" ] }
+}
