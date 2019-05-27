@@ -9,7 +9,7 @@
     ],
     "skipLibCheck": true,
     "allowJs": true,
-    "jsx": "preserve",
+    "jsx": "react",
     "isolatedModules": true,
     "strict": true,
     "strictNullChecks": true,
@@ -21,8 +21,7 @@
     "noEmit": true,
     "types": [
       "cypress",
-      "jest",
-      "enzyme"
+      "jest"
     ]
   },
   "include": [
